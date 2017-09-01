@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/a_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.viewdefined.MainActivity">
+
+    <core.overite.ScrollViewContainer
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#999">
+
+        <include
+            layout="@layout/d_relativelayout_a"
+            />
+
+        <include
+            layout="@layout/d_relativelayout_b"/>
+
+    </core.overite.ScrollViewContainer>
+
+</RelativeLayout>
